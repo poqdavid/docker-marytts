@@ -5,4 +5,4 @@ docker run -i \
        -e "HOME=${HOME}" \
        --user "$(id -u):$(id -g)" \
        --entrypoint /marytts/bin/marytts-txt2wav \
-       synesthesiam/marytts:5.2 "$@"
+       poqdavid/marytts:5.2 "$@"
